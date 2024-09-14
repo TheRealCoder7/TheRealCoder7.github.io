@@ -10,22 +10,24 @@ font-size: 1.5vw;
     font-family: "Fredoka One", sans-serif;
     width: 16%;
     text-shadow: 
-    1px 1px 0px black, /* Bottom-right shadow */
+    5px 5px 0px black, /* Bottom-right shadow */
     -1px 1px 0px black,/* Bottom-left shadow */
-    1px -1px 0px black,/* Top-right shadow */
-    1px -1px 0px black; /* Top-left shadow */
+    5px -1px 0px black,/* Top-right shadow */
+    5px -1px 0px black; /* Top-left shadow */
+    justify-content: center;
+    padding: 7vh;
 }
 
 ul{
     margin: 0px;
 }
 body > header{
-    background-color: orange;
-    color: white;
+    background-color: lightgreen;
+    color: yellow;
     display: flex;
     height: 12vh; 
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #nav-ul {
@@ -33,8 +35,8 @@ body > header{
 }
 
 #nav-ul > li {
-    padding: 8px;
-    margin: 16px;
+    padding: 10px;
+    margin: 50px;
 }
 
 body > header > nav > ul {
@@ -43,10 +45,10 @@ body > header > nav > ul {
 }
 
 .navbutton{
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 12px;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 10%;
 }
 
@@ -61,7 +63,7 @@ body > main article {
 }
 
 #main-content > div {
-    width: 70%;
+    width: 80%;
 }
 
 form {
@@ -72,12 +74,13 @@ h2{
     text-align: center;
 }
 body > footer{
-    background-color: orange;
+    background-color: lightgreen;
     display: flex;
+    justify-content: space-around;
 }
 
 img{
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 #footer-ul{
@@ -85,11 +88,30 @@ img{
     list-style: none;
 }
 
-#footer-ul > div > li {
-    margin-left: 12px;
+#footer-ul > div {
+    margin: 12px;
 }
+
+#footer-ul > div > li {
+    margin-left: 100px;
+}
+
 
 #footer-ul > div > li > a{
     color: white;
     text-decoration: none;
+    justify-content: none;
+    margin-left: 100px;
+    padding: 0px;
+    text-align: left;
 }
+
+#footer-h2{
+    color: yellow;
+    text-shadow: 
+    5px 5px 0px black, /* Bottom-right shadow */
+    -1px 1px 0px black,/* Bottom-left shadow */
+    5px -1px 0px black,/* Top-right shadow */
+    5px -1px 0px black; /* Top-left shadow */
+}
+
